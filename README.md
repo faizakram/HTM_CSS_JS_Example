@@ -1,4 +1,4 @@
-<h2>File Name:- getFileSizeUisngJavaScript</h2>
+<h2>File Name:- getFileSizeUisngJavaScript.html</h2>
 
 ===============================================
 	function fileUpload() {
