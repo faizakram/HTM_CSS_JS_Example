@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+    		$('.btn').click(function() {
+    			 if($(this).val() == "Follow"){
+       			 this.value = 'UnFollow';
+       			 $(this).removeClass("btn-success");
+        		 $(this).addClass("btn-danger");
+       			}
+       			else{
+       				this.value = 'Follow';
+       				$(this).removeClass("btn-danger");
+        		   $(this).addClass("btn-success");
+       			}
+    	});
+});
+	</script>
+
+</head>
+<body>
+<div class="container">
+  <h2>Button Add Class Or Remove</h2>
+<input type="button" class="btn btn-success" value="Follow" />
+<input type="button" class="btn btn-success" value="Follow" />
+<input type="button" class="btn btn-success" value="Follow" />
+<input type="button" class="btn btn-success" value="Follow" />
+</div>
+</body>
+</html>
