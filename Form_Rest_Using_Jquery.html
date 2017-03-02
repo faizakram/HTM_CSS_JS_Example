@@ -9,6 +9,7 @@
 $(document).ready(function(){
   	$("#myform").submit(function(e) {
   		alert("Going To reset");
+		//document.getElementById("myform").reset();     //You Can also use this one
   		$("#myform").trigger('reset');
   	});
  });
