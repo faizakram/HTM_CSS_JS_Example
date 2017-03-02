@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+	Form Rest
+</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  	$("#myform").submit(function(e) {
+  		alert("Going To reset");
+  		$("#myform").trigger('reset');
+  	});
+ });
+</script>
+</head>
+<body>
+<div class="main">
+	<form action="#" id="myform">
+		<input type="text" placeholder="Enter Name"><br><br>
+		<select>
+			<option selected="selected">Select</option>
+			<option>1st Name</option>
+			<option>2st Name</option>
+			<option>3st Name</option>
+			<option>4st Name</option>
+			<option>5st Name</option>
+		</select><br><br>
+		<input type="radio" value="Male" name="gender"> Male
+		<input type="radio" value="FeMale" name="gender"> FeMale
+		<br><br>
+		<input type="submit"/>
+	</form>
+</div>
+</body>
+</html>
