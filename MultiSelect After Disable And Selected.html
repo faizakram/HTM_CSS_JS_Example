@@ -1,0 +1,32 @@
+<html>
+ <head>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript">
+
+   function changeFunc() {
+    var optionvalue = document.getElementById("selectBox");
+       for (var i = 0; i < optionvalue.options.length; i++) {
+         if(optionvalue.options[i].selected ==true){
+          //alert(optionvalue.options[i].value);
+           $("#selectBox option:contains('"+optionvalue.options[i].value+"')").attr("selected","selected");
+         $("#selectBox option:contains('"+optionvalue.options[i].value+"')").attr("disabled","disabled");
+          }
+      }
+      
+
+   }
+ 
+  </script>
+ </head>
+ <body>
+ <form id="form">
+  <select id="selectBox" multiple="multiple">
+   <option value="Option 1">Option 1</option>
+   <option value="Option 2">Option 2</option>
+   <option value="Option 3">Option 3</option>
+   <option value="Option 4">Option 4</option>
+  </select>
+  <input type="button" value="button" onclick="changeFunc()">
+  </form>
+ </body>
+</html>
