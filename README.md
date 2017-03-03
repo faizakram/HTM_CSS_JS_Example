@@ -17,14 +17,14 @@ http://faizakram.com/github/HTM_CSS_JS_Example/Form_Rest_Using_Jquery.html
 <h2>File Name:- getFileSizeUisngJavaScript.html</h2>
 
 ===============================================
-```	function fileUpload() {
+	function fileUpload() {
    		 	var inpFiles = document.getElementById('fileUpload');
   			for (var i = 0; i < inpFiles.files.length; ++i) {
     		var size = inpFiles.files.item(i).size;
     		alert("File Size : " + size);
 			}
  		 }
-```
+
   ===============================================
   <h3>Before Choose File</h3>
   <img src="http://faizakram.com/github/HTM_CSS_JS_Example/filesize.PNG"/>
