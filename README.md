@@ -27,9 +27,9 @@ http://faizakram.com/github/HTM_CSS_JS_Example/Form_Rest_Using_Jquery.html
 
   ===============================================
   <h3>Before Choose File</h3>
-  <img src="http://faizakram.com/github/HTM_CSS_JS_Example/filesize.PNG"/>
+  <img src="http://faizakram.com/github/HTM_CSS_JS_Example/filesize.PNG" alt="Web Project, Java Web Project, Java Developer, Delhi Web Developer, Delhi Java Developer, Delhi, Bihar, Patna, Gaya, USA, Java, Spring, Hibernate, School Project, Company CEO, Spring MVC, Spring Security, Maven, Ajax, JavaScript, project, work, faiz, branding, design, school, akram, blood, healthcare, new, soon, developement, search, webdesign, coming, delhi, drugs, engine, instant, portal, escriptions, technologies, doctor, fill, found"/>
   <h3>After Choose File</h3>
-  <img src="http://faizakram.com/github/HTM_CSS_JS_Example/filesize2.PNG"/>
+  <img src="http://faizakram.com/github/HTM_CSS_JS_Example/filesize2.PNG" alt="Web Project, Java Web Project, Java Developer, Delhi Web Developer, Delhi Java Developer, Delhi, Bihar, Patna, Gaya, USA, Java, Spring, Hibernate, School Project, Company CEO, Spring MVC, Spring Security, Maven, Ajax, JavaScript, project, work, faiz, branding, design, school, akram, blood, healthcare, new, soon, developement, search, webdesign, coming, delhi, drugs, engine, instant, portal, escriptions, technologies, doctor, fill, found"/>
   <h3>Demo Link</h3>
   http://faizakram.com/github/HTM_CSS_JS_Example/getFileSizeUisngJavaScript.html
   
@@ -55,9 +55,9 @@ http://faizakram.com/github/HTM_CSS_JS_Example/Form_Rest_Using_Jquery.html
 ```
 =========================================================================
 <h3>Before Click </h3>
-<img src="http://faizakram.com/github/HTM_CSS_JS_Example/buttonHome.PNG"/>
+<img src="http://faizakram.com/github/HTM_CSS_JS_Example/buttonHome.PNG" alt="Web Project, Java Web Project, Java Developer, Delhi Web Developer, Delhi Java Developer, Delhi, Bihar, Patna, Gaya, USA, Java, Spring, Hibernate, School Project, Company CEO, Spring MVC, Spring Security, Maven, Ajax, JavaScript, project, work, faiz, branding, design, school, akram, blood, healthcare, new, soon, developement, search, webdesign, coming, delhi, drugs, engine, instant, portal, escriptions, technologies, doctor, fill, found"/>
 <h3>After Click </h3>
-<img src="http://faizakram.com/github/HTM_CSS_JS_Example/buttonHome2.PNG"/>
+<img src="http://faizakram.com/github/HTM_CSS_JS_Example/buttonHome2.PNG" alt="Web Project, Java Web Project, Java Developer, Delhi Web Developer, Delhi Java Developer, Delhi, Bihar, Patna, Gaya, USA, Java, Spring, Hibernate, School Project, Company CEO, Spring MVC, Spring Security, Maven, Ajax, JavaScript, project, work, faiz, branding, design, school, akram, blood, healthcare, new, soon, developement, search, webdesign, coming, delhi, drugs, engine, instant, portal, escriptions, technologies, doctor, fill, found"/>
 <h3>Demo Link</h3>
 http://faizakram.com/github/HTM_CSS_JS_Example/AddOrRemoveClass.html
 
@@ -98,11 +98,11 @@ http://faizakram.com/github/HTM_CSS_JS_Example/AddOrRemoveClass.html
 ```
 ================================================================================================
 <h3>Before Click </h3>
-<img src="http://faizakram.com/github/HTM_CSS_JS_Example/map1.PNG"/>
+<img src="http://faizakram.com/github/HTM_CSS_JS_Example/map1.PNG" alt="Web Project, Java Web Project, Java Developer, Delhi Web Developer, Delhi Java Developer, Delhi, Bihar, Patna, Gaya, USA, Java, Spring, Hibernate, School Project, Company CEO, Spring MVC, Spring Security, Maven, Ajax, JavaScript, project, work, faiz, branding, design, school, akram, blood, healthcare, new, soon, developement, search, webdesign, coming, delhi, drugs, engine, instant, portal, escriptions, technologies, doctor, fill, found"/>
 <h3>After Click </h3>
-<img src="http://faizakram.com/github/HTM_CSS_JS_Example/map2.PNG"/>
+<img src="http://faizakram.com/github/HTM_CSS_JS_Example/map2.PNG" alt="Web Project, Java Web Project, Java Developer, Delhi Web Developer, Delhi Java Developer, Delhi, Bihar, Patna, Gaya, USA, Java, Spring, Hibernate, School Project, Company CEO, Spring MVC, Spring Security, Maven, Ajax, JavaScript, project, work, faiz, branding, design, school, akram, blood, healthcare, new, soon, developement, search, webdesign, coming, delhi, drugs, engine, instant, portal, escriptions, technologies, doctor, fill, found"/>
 <h3>After Click redirect</h3>
-<img src="http://faizakram.com/github/HTM_CSS_JS_Example/map3.PNG"/>
+<img src="http://faizakram.com/github/HTM_CSS_JS_Example/map3.PNG" alt="Web Project, Java Web Project, Java Developer, Delhi Web Developer, Delhi Java Developer, Delhi, Bihar, Patna, Gaya, USA, Java, Spring, Hibernate, School Project, Company CEO, Spring MVC, Spring Security, Maven, Ajax, JavaScript, project, work, faiz, branding, design, school, akram, blood, healthcare, new, soon, developement, search, webdesign, coming, delhi, drugs, engine, instant, portal, escriptions, technologies, doctor, fill, found"/>
 
 <h3>Demo Link</h3>
 http://faizakram.com/github/HTM_CSS_JS_Example/OnMapMarkerClickEvent.html
