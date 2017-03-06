@@ -1,4 +1,19 @@
 
+<h2>File Name:- MultiSelect After Disable And Selected.html</h2>
+```
+	function changeFunc() {
+   	 var optionvalue = document.getElementById("selectBox");
+       for (var i = 0; i < optionvalue.options.length; i++) {
+         if(optionvalue.options[i].selected ==true){
+          //alert(optionvalue.options[i].value);
+           $("#selectBox option:contains('"+optionvalue.options[i].value+"')").attr("selected","selected");
+         $("#selectBox option:contains('"+optionvalue.options[i].value+"')").attr("disabled","disabled");
+          }
+      }
+      
+   }
+```
+
 <h2>File Name:- Form_Rest_Using_Jquery.html</h2>
 ===============================================
 ```
