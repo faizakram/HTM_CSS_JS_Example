@@ -5,8 +5,7 @@
 $(document).ready(function(){
   	$("#myform").submit(function(e) {
   		alert("Going To reset");
-		document.getElementById("myform").reset();
-  		$("#myform").trigger('reset');
+  		$("#myform").trigger('reset'); //document.getElementById("myform").reset();
   	});
  });
 ```
