@@ -1,4 +1,15 @@
 
+<h2>File Name :- SelectTest After Disable and Selected.html</h2>
+
+```
+	 function changeFunc() {
+   	 	var optionvalue = document.getElementById("selectBox").value;
+      		alert(optionvalue);
+     			 $("#selectBox option:contains('"+optionvalue+"')").attr("selected","selected");
+    			 $("#selectBox option:contains('"+optionvalue+"')").attr("disabled","disabled");
+
+  		 }
+```
 <h2>File Name:- MultiSelect After Disable And Selected.html</h2>
 ```
 	function changeFunc() {
