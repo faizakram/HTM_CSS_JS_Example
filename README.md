@@ -1,4 +1,23 @@
 
+<h2>File Name :- Auto_Complete_Off.html</h2>
+
+```
+$(document).ready(function(){
+		/*For Disable Copy*/
+		$('.fname').bind("cut copy paste",function(e) {
+    		 e.preventDefault();
+ 		});
+
+ 		/*==========================================*/
+
+ 		/*For Auto Complete OFF*/
+    	$( document ).on( 'focus', ':input', function(){
+       	 	$( this ).attr( 'autocomplete', 'off' );
+    		});
+	});
+```
+<h3>Demo Link :- </h3>
+
 <h2>File Name :- SelectTest After Disable and Selected.html</h2>
 
 ```
@@ -10,7 +29,7 @@
 
   		 }
 ```
-<h3>Demo Link :- </h3>http://faizakram.com/github/HTM_CSS_JS_Example/SelectTest_After_Disable_and_Selected.html
+<h3>Demo Link :- </h3>http://faizakram.com/github/HTM_CSS_JS_Example/Auto_Complete_Off.html
 
 <h2>File Name:- MultiSelect After Disable And Selected.html</h2>
 ```
