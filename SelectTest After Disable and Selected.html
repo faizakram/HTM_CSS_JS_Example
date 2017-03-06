@@ -6,7 +6,6 @@
    function changeFunc() {
     var optionvalue = document.getElementById("selectBox").value;
       alert(optionvalue);
-      $("#form").trigger('reset');
       $("#selectBox option:contains('"+optionvalue+"')").attr("selected","selected");
      $("#selectBox option:contains('"+optionvalue+"')").attr("disabled","disabled");
 
