@@ -10,7 +10,7 @@
 
   		 }
 ```
-<h3>Demo Link :- http://faizakram.com/github/HTM_CSS_JS_Example/SelectTest After Disable and Selected.html</h3>
+<h3>Demo Link :- http://faizakram.com/github/HTM_CSS_JS_Example/SelectTest_After_Disable_and_Selected.html</h3>
 
 <h2>File Name:- MultiSelect After Disable And Selected.html</h2>
 ```
@@ -26,7 +26,7 @@
       
    }
 ```
-<h3>Demo Link :- http://faizakram.com/github/HTM_CSS_JS_Example/MultiSelect After Disable And Selected.html</h3>
+<h3>Demo Link :- http://faizakram.com/github/HTM_CSS_JS_Example/MultiSelect_After_Disable_And_Selected.html</h3>
 
 <h2>File Name:- Form_Rest_Using_Jquery.html</h2>
 ===============================================
