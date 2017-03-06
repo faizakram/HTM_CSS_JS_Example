@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Faiz Akram | Web Developer & Designer | +91-9990858653</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		/*For Disable Copy*/
+		$('.fname').bind("cut copy paste",function(e) {
+    		 e.preventDefault();
+ 		});
+
+ 		/*==========================================*/
+
+ 		/*For Auto Complete OFF*/
+    	$( document ).on( 'focus', ':input', function(){
+       	 	$( this ).attr( 'autocomplete', 'off' );
+    		});
+	});
+
+	</script>
+</head>
+<body>
+<h1>Disbale Auto Complete, Cut, Copy, Paste</h1>
+<form action="#">
+  First name:<br>
+  <input type="text" name="firstname" class ="fname">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" class ="fname">
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
+</body>
+</html>
