@@ -4,15 +4,13 @@
 
 ```
 $(document).ready(function(){
-		
-		$('.fname').bind("cut copy paste",function(e) {
-    		 e.preventDefault();
- 		});
-
-    	$( document ).on( 'focus', ':input', function(){
-       	 	$( this ).attr( 'autocomplete', 'off' );
-    		});
-	});
+	$('.fname').bind("cut copy paste",function(e) {
+    	e.preventDefault();
+ });
+$( document ).on( 'focus', ':input', function(){
+    $( this ).attr( 'autocomplete', 'off' );
+  });
+});
 ```
 <h3>Demo Link :- </h3>http://faizakram.com/github/HTM_CSS_JS_Example/Auto_Complete_Off.html
 
