@@ -16,21 +16,18 @@ $( document ).on( 'focus', ':input', function(){
 
 <h2>File Name :- SelectTest After Disable and Selected.html</h2>
 ```
-
-		 function changeFunc() {
-   	 	var optionvalue = document.getElementById("selectBox").value;
-      		alert(optionvalue);
-     			 $("#selectBox option:contains('"+optionvalue+"')").attr("selected","selected");
-    			 $("#selectBox option:contains('"+optionvalue+"')").attr("disabled","disabled");
-
-  		 }
-
+function changeFunc() {
+	var optionvalue = document.getElementById("selectBox").value;
+	alert(optionvalue);
+	$("#selectBox option:contains('"+optionvalue+"')").attr("selected","selected");
+ 	$("#selectBox option:contains('"+optionvalue+"')").attr("disabled","disabled");
+ }
 ```
 <h3>Demo Link :- </h3>http://faizakram.com/github/HTM_CSS_JS_Example/Auto_Complete_Off.html
 
 <h2>File Name:- MultiSelect After Disable And Selected.html</h2>
 ```
-	function changeFunc() {
+function changeFunc() {
    	 var optionvalue = document.getElementById("selectBox");
        for (var i = 0; i < optionvalue.options.length; i++) {
          if(optionvalue.options[i].selected ==true){
@@ -38,8 +35,7 @@ $( document ).on( 'focus', ':input', function(){
            $("#selectBox option:contains('"+optionvalue.options[i].value+"')").attr("selected","selected");
          $("#selectBox option:contains('"+optionvalue.options[i].value+"')").attr("disabled","disabled");
           }
-      }
-      
+      } 
    }
 ```
 <h3>Demo Link :- </h3>http://faizakram.com/github/HTM_CSS_JS_Example/MultiSelect_After_Disable_And_Selected.html
