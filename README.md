@@ -9,7 +9,7 @@ $(document).ready(function(){
     		 e.preventDefault();
  		});
 
- 		/*==========================================*/
+ 		
 
  		/*For Auto Complete OFF*/
     	$( document ).on( 'focus', ':input', function(){
@@ -64,7 +64,7 @@ http://faizakram.com/github/HTM_CSS_JS_Example/Form_Rest_Using_Jquery.html
   
 
 <h2>File Name:- getFileSizeUisngJavaScript.html</h2>
-
+```
 ===============================================
 	function fileUpload() {
    		 	var inpFiles = document.getElementById('fileUpload');
@@ -75,6 +75,7 @@ http://faizakram.com/github/HTM_CSS_JS_Example/Form_Rest_Using_Jquery.html
  		 }
 
   ===============================================
+  ```
   <h3>Before Choose File</h3>
   <img src="http://faizakram.com/github/HTM_CSS_JS_Example/filesize.PNG" alt="Web Project, Java Web Project, Java Developer, Delhi Web Developer, Delhi Java Developer, Delhi, Bihar, Patna, Gaya, USA, Java, Spring, Hibernate, School Project, Company CEO, Spring MVC, Spring Security, Maven, Ajax, JavaScript, project, work, faiz, branding, design, school, akram, blood, healthcare, new, soon, developement, search, webdesign, coming, delhi, drugs, engine, instant, portal, escriptions, technologies, doctor, fill, found"/>
   <h3>After Choose File</h3>
