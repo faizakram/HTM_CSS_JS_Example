@@ -4,14 +4,11 @@
 
 ```
 $(document).ready(function(){
-		/*For Disable Copy*/
+		
 		$('.fname').bind("cut copy paste",function(e) {
     		 e.preventDefault();
  		});
 
- 		
-
- 		/*For Auto Complete OFF*/
     	$( document ).on( 'focus', ':input', function(){
        	 	$( this ).attr( 'autocomplete', 'off' );
     		});
@@ -21,7 +18,7 @@ $(document).ready(function(){
 
 <h2>File Name :- SelectTest After Disable and Selected.html</h2>
 ```
-/*==========================================*/
+
 		 function changeFunc() {
    	 	var optionvalue = document.getElementById("selectBox").value;
       		alert(optionvalue);
@@ -29,7 +26,7 @@ $(document).ready(function(){
     			 $("#selectBox option:contains('"+optionvalue+"')").attr("disabled","disabled");
 
   		 }
-/*==========================================*/
+
 ```
 <h3>Demo Link :- </h3>http://faizakram.com/github/HTM_CSS_JS_Example/Auto_Complete_Off.html
 
